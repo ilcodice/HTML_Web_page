@@ -1,0 +1,23 @@
+[
+    {
+        "rank":1,
+        "first_name": "john",
+        "last_name": "Doe",
+        "score": 400,
+        "solved_chalanges": 150
+    },
+    {
+        "rank":2,
+        "first_name": "Alice",
+        "last_name": "Smith",
+        "score": 350,
+        "solved_chalanges": 140
+    },
+    {
+        "rank":3,
+        "first_name": "Emma",
+        "last_name": "Johnson",
+        "score": 420,
+        "solved_chalanges": 135
+    }
+]
