@@ -9,17 +9,11 @@ export default function LoginPage() {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [state, setState] = useState("");
 
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   const PasswordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$/;
-  
-  // let isAuth = () =>{
-  //   if (user){
-  //     navigate("/")
-  //   }else{
-  //     navigate("/SignUp")
-  //   }
-  // }
+
 
     let checkCredentials = () =>{
       if (!emailRegex.test(email)){
