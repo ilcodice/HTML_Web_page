@@ -12,10 +12,10 @@ export default function Workspace() {
       gutterSize={5}          // Space between panes
       direction="horizontal"   // Side-by-side split
     >
-      <div className="bg-gray-300 p-4 overflow-auto">
+      <div className="bg-gray-200 overflow-auto">
         <ChallengeDescription />
       </div>
-      <div className="bg-gray-100 p-4 overflow-auto">
+      <div className="bg-gray-100  overflow-auto">
         <Playground />
       </div>
     </Split>

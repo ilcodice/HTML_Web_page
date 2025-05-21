@@ -10,9 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@codemirror/lang-javascript": "^6.2.4",
+    "@codemirror/lang-python": "^6.2.1",
     "@hookform/resolvers": "^5.0.1",
     "@ramonak/react-progress-bar": "^5.4.0",
     "@reduxjs/toolkit": "^2.8.2",
+    "@uiw/react-codemirror": "^4.23.12",
+    "@uiw/react-markdown-preview": "^5.1.4",
     "@uiw/react-tooltip": "^4.22.3",
     "apexcharts": "^4.7.0",
     "flowbite": "^2.2.1",
@@ -22,6 +26,8 @@
     "react-apexcharts": "^1.7.0",
     "react-dom": "^19.1.0",
     "react-hook-form": "^7.56.4",
+    "react-markdown": "^10.1.0",
+    "react-markdown-preview": "^1.1.1",
     "react-redux": "^9.2.0",
     "react-router": "^7.5.3",
     "react-router-dom": "^7.6.0",
