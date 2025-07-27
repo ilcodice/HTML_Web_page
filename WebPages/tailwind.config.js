@@ -1,9 +1,13 @@
-darkMode: 'class'
 
 module.exports = {
+  darkMode: 'class',
+
   content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx,html}",
+
     "./node_modules/flowbite-react/**/*.{js,ts,jsx,tsx}",
-    // other paths where you use Tailwind classes
+    
   ],
   theme: {
     extend: {},
